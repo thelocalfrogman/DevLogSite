@@ -12,7 +12,7 @@ body {
 .header {
   padding: 60px;
   text-align: center;
-  background-image: url("https://img.resized.co/breaking-news/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5icmVha2luZ25ld3MuaWVcXFwvcHJvZFxcXC91cGxvYWRzXFxcLzIwMjFcXFwvMDNcXFwvMzExMzU3MjVcXFwvaGlkZXRoZXBhaW5oYXJvbGQuanBnXCIsXCJ3aWR0aFwiOm51bGwsXCJoZWlnaHRcIjozNjAsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3d3dy5icmVha2luZ25ld3MuaWVcXFwvaW1hZ2VzXFxcL25vLWltYWdlLnBuZ1wiLFwib3B0aW9uc1wiOntcIm91dHB1dFwiOlwianBlZ1wifX0iLCJoYXNoIjoiYzM5NzNhZDNiMmRiYTg3YWFiNzcyNWVmMzE5Zjg4NTY3ZjI1NWZhNCJ9/hidethepainharold.jpg");
+  background: #1abc9c;
   color: white;
   font-size: 30px;
 }
