@@ -1,43 +1,82 @@
 
 body {
-    font-family: sans-serif;
-    margin: 0;
-    line-height: 1.6;
-  }
-  
-  header {
-    background-color: #f0f0f0;
-    padding: 1rem;
-  }
-  
-  nav a {
-    margin-right: 1rem; 
-    text-decoration: none;
-    color: #333;
-  }
-  
-  main {
-    padding: 2rem;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 1rem;
-  }
-  
+  font-family: sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background-image: url("https://img.resized.co/breaking-news/eyJkYXRhIjoie1widXJsXCI6XCJodHRwczpcXFwvXFxcL2ltYWdlcy5icmVha2luZ25ld3MuaWVcXFwvcHJvZFxcXC91cGxvYWRzXFxcLzIwMjFcXFwvMDNcXFwvMzExMzU3MjVcXFwvaGlkZXRoZXBhaW5oYXJvbGQuanBnXCIsXCJ3aWR0aFwiOm51bGwsXCJoZWlnaHRcIjozNjAsXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3d3dy5icmVha2luZ25ld3MuaWVcXFwvaW1hZ2VzXFxcL25vLWltYWdlLnBuZ1wiLFwib3B0aW9uc1wiOntcIm91dHB1dFwiOlwianBlZ1wifX0iLCJoYXNoIjoiYzM5NzNhZDNiMmRiYTg3YWFiNzcyNWVmMzE5Zjg4NTY3ZjI1NWZhNCJ9/hidethepainharold.jpg");
+  color: white;
+  font-size: 30px;
+}
+
+/* UPDATES */
 
 #latest-updates {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem; 
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; 
+  float: left;
 }
 
 .update {
-    border: 1px solid #ddd;
-    padding: 1rem;
-    border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 5px;
 }
 
-.update h4 {
-    margin-top: 0;
+/* NAV BAR */
+.topnav {
+overflow: hidden;
+background-color: #3EC6D0;
+border-radius: 4px;
+text-align: center;
+}
+
+.topnav ul {
+display: inline-block;
+align-items: center;
+list-style-type: none;
+}
+
+.topnav a {
+color: #000000;
+padding: 7px 8px;
+text-decoration: none;
+font-size: 16px;
+border-radius: 3px;
+}
+
+.topnav a:hover {
+background-color: #bdcebb;
+color: black;
+}
+
+.topnav a.active {
+background-color: #2D9655;
+color: white;
+}
+
+/* END */
+
+/* Create two equal columns that floats next to each other */
+.column {
+float: left;
+width: 50%;
+padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
 }
