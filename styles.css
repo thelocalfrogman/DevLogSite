@@ -175,16 +175,27 @@ aside {
   border-color: #000000;
   border-style: solid;
   width: 50%;
+  height: 70px;
+  line-height: 23px;
   background-color: #3EC6D0;
   box-shadow: 10px 10px 2px;
-
   border-radius: 3px;
 }
 
 .howdyText {
-  text-align: center;
   font-style: italic;
   font-weight:bold;
+  font-family: 'Ubuntu';
+  margin-left: 5px;
+}
+
+h1 h2 h3 {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Open Sans';
 }
 
 /* Project cards */

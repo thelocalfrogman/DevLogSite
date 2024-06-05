@@ -2,6 +2,7 @@
 
 // Breaks down updates into objects as part of an array with elements seperated into different properites to be combined as part of displayUpdates()
 const updates = [
+    // Future updates go below Crl C + Crl V
     { date: "May 15, 2024", title: "First Post!", content: "Hello world. Welcome to my persoanl dev log." },
     { date: "May 16, 2024", title: "Learning JavaScript", content: "Started diving into JavaScript. Turned my update logs into a Javascript array with variables instead of copy pasting HTML & ending up with an infinite scrolling page." },
     { date: "May 17, 2024", title: "TEST", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
@@ -12,7 +13,6 @@ const updates = [
     { date: "May 22, 2024", title: "TEST", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
     { date: "May 23, 2024", title: "TEST", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
     { date: "May 24, 2024", title: "TEST", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." },
-    // Future updates go above Crl C + Crl V
 ];
 
 const updatesSection = document.getElementById("latest-updates"); // Grabs the id tag of the "lastest-updates" section for reference from index.html
