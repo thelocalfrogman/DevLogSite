@@ -61,6 +61,31 @@ body {
   color: white;
 }
 
+/* Footer */
+
+
+.social-footer {
+  margin-top: 20px;
+  background: #3EC6D0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.footer-social-icons {
+  list-style-type: none;
+  font-size: 50px;
+  display: block;
+  float: inline-start;
+  
+}
+
+.fa {
+  color: #fefefe;
+}
+
+
 /* Create two equal columns that floats next to each other */
 .column {
   float: left;
@@ -171,10 +196,11 @@ aside {
 
 /* Howdy box button */
 
-.howdyBox {
+.TitleBox {
   border-color: #000000;
   border-style: solid;
-  width: 50%;
+  width: fit-content;
+  padding-right: 25px;
   height: 70px;
   line-height: 23px;
   background-color: #3EC6D0;
@@ -182,7 +208,7 @@ aside {
   border-radius: 3px;
 }
 
-.howdyText {
+.TitleText {
   font-style: italic;
   font-weight:bold;
   font-family: 'Ubuntu';
@@ -222,4 +248,10 @@ p {
   padding: 20px;
   font-size: 30px;
   justify-self: center;
+}
+
+/* Project Blog Post */
+
+.BlogPageMargin {
+  margin-left: 10px;
 }

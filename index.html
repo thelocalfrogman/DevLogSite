@@ -2,60 +2,100 @@
 
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Icon library for footer -->
+        <title>Frog Mans Dev Log</title>
+    </head>
 
-<head>
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
-  <title>Frog Mans Dev Log</title>
-</head>
-
-<body>
-  <div class="topnav">
-    <ul>
-      <a class="active" href="/index.html">Home</a>
-      <a href="/about.html">About</a>
-      <a href="/projects.html">Projects</a>
-    </ul>
-  </div>
-
-  <div class="header">
-    <h1>👋 I'm George 🤓</h1>
-    <p>Welcome to my dev log</p>
-  </div>
-
-  <div style="padding: 12px;"></div>
-
-  <div class="row">
-    <div class="column"> <!-- Left Side -->
-      <section id="latest-updates">
-        <div class="howdyBox">
-        <h2 class="howdyText">Latest Updates 🖊️</h2>
+    <body>
+        <div class="topnav">
+            <ul>
+                <a class="active" href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html">Projects</a>
+            </ul>
         </div>
 
-      </section>
-      <button id="see-more" class="cta-buttons" style="margin-top: 10px;">See More</button>
-    </div>
+        <div class="header">
+            <h1>👋 I'm George 🤓</h1>
+            <p>Welcome to my dev log</p>
+        </div>
 
-    <div class="column"> <!-- Right Side -->
-      <div class="howdyBox">
-      <h2 class="howdyText">Howdy 🤠</h2>
-      </div>
+        <div style="padding: 12px;"></div>
 
-      <p>I'm George, a IT student interested in all facets of computer science and programming.<br>This site is a small
-        log of things that I'm learning and projects that I'm working on</p>
-      <br>
-      <p>This is my little website, made with simple HTML, CSS & some Javascript that I'm very new to<br>Not meant to be
-        flashy or anything but I can say that It's mine which I think is neat</p>
+        <div class="row">
+            <div
+                class="column">
+                <!-- Left Side -->
+                <section id="latest-updates">
+                    <div class="TitleBox">
+                        <h2 class="TitleText">Latest Updates 🖊️</h2>
+                    </div>
+                </section>
+                <button id="see-more" class="cta-buttons" style="margin-top: 10px;">
+                    See More
+                </button>
+            </div>
 
-      <!-- CTA for About & Projects -->
-      <a href="/about.html"><button class="cta-buttons">About me</button></a>
-      <a href="/projects.html"><button class="cta-buttons">Projects</button></a>
+            <div
+                class="column">
+                <!-- Right Side -->
+                <div class="TitleBox">
+                    <h2 class="TitleText">Howdy 🤠</h2>
+                </div>
 
-    </div>
-  </div>
+                <p>
+                    I'm George, a IT student interested in all facets of computer science
+                              and programming.
+                </p>
+                <br/>
+                <p>
+                    This is my little website, made with simple HTML, CSS & some
+                              Javascript that I'm very new to<br/>Not meant to be flashy or
+                              anything but just a small log of things that I'm
+                              learning and projects that I'm working on.<br>Plus I can say that It's mine which I think is neat
+                </p>
 
-  <script src="script.js"></script>
-</body>
+                <!-- CTA for About & Projects -->
+                <a href="about.html">
+                    <button class="cta-buttons">About me</button>
+                </a>
+                <a href="projects.html">
+                    <button class="cta-buttons">Projects</button>
+                </a>
 
+                <p>
+                    I do have some small plans for this site, I would like to integrate
+                              some kind of backend<br/>database for retreiving blog posts /
+                              updates.
+                              As well as potentially rewriting it in another<br/>
+                    language, not react or
+                              anything, I'm not crazy but Ruby on Rails might be interesting<br/>
+                    Mayybe a more mightweight javascript framework like Vue or Angular JS
+                              but we shall see.
+                </p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+
+        <footer class="social-footer">
+          <div style="padding-left: 5px;">
+            <b><p>Built by George Ferres</p>
+            <a href= "mailto: georgeferres@protonmail.com"><p>georgeferres@protonmail.com</p></a></b>
+          </div>
+          <div>
+            <ul>
+              <li class="footer-social-icons"><a href="https://github.com/thelocalfrogman/"><i class="fa fa-github"></i></a></li>
+              <li class="footer-social-icons"><a style="padding-left: 20px;" href="https://au.linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
+          </div>
+        </footer>
+        
+        
+
+    </body>
 </html>
